@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,12 +11,10 @@ class SafiriPamojaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'SafiriPamoja',
       home: Scaffold(
-        body: Center(
-          child: Text('SafiriPamoja App Starter'),
-        ),
+        appBar: AppBar(title: const Text('SafiriPamoja')),
+        body: const Center(child: Text('App Ready 🚀')),
       ),
     );
   }
